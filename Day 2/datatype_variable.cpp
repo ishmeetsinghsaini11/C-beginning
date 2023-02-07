@@ -12,5 +12,7 @@ int main() {
   cout<<d<<endl;
   bool b1 = true;
   cout<<b1<<endl;
+  int size= sizeof (a);
+  cout << "Size of a = "<<size<<endl;
   
 }
