@@ -14,5 +14,8 @@ int main() {
   cout<<b1<<endl;
   int size= sizeof (a);
   cout << "Size of a = "<<size<<endl;
+  unsigned int i=276;
+  cout<<i<<endl;
+  
   
 }
