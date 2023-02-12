@@ -1,2 +1,2 @@
-# C-beginning
+# C++ beginning
 Starting my programming journey 
