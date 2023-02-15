@@ -1,10 +1,11 @@
-//BITWISE OPERATORS
+//OPERATORS
 
 #include<iostream>
 using namespace std;
 
 int main(){
-
+  //BITWISE OPERATORS
+  
   int a = 2;
   int b = 4;
   int c = a&b;             // AND
@@ -20,5 +21,17 @@ int main(){
   
   cout<<(5<<2)<<endl; //LEDT SHIFT
   cout<<(5>>2)<<endl; //RIGHT SHIFT
+
+  // INCREMENT AND DECREMENT OPERATOR
+
+  int i =10;
+  cout<<(i++)<<endl; //POST INCREMENT
+  //10
+  cout<<(++i)<<endl; //PRE INCREMENT
+  //12
+  cout<<(i--)<<endl; //POST DECREMENT
+  //12
+  cout<<(--i)<<endl; //PRE DECREMENT
+  //10
 
 }
